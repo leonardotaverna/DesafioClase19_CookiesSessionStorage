@@ -5,6 +5,7 @@ import handlebars from 'express-handlebars';
 import productsManagerMongoDB from './ProductsManagerMongoDB.js';
 import viewsRouter from './routes/views.router.js';
 import productsRouter from './routes/products.router.js';
+import cartsRouter from './routes/carts.router.js';
 import { Server } from 'socket.io'; 
 import './db/dbConfig.js';
 
@@ -21,10 +22,11 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'handlebars');
 
 //Routes
-app.use('/api/views',viewsRouter);
+app.use ('/api/views',viewsRouter);
 app.use ('/api/products', productsRouter);
+app.use ('/api/carts', cartsRouter);
 
-const PORT = 8081
+const PORT = 8080
 
 const httpServer = app.listen(PORT,()=>{
     console.log(`Escuchando al puerto ${PORT}`);

@@ -1,0 +1,306 @@
+[
+    {
+        "title": "To Kill a Mockingbird",
+        "description": "Una historia poderosa sobre la injusticia racial y la infancia en el sur de Estados Unidos.",
+        "price": 10.99,
+        "thumbnail": "url_libro_1",
+        "code": "TKM567",
+        "stock": 25
+    },
+    {
+        "title": "1984",
+        "description": "Una distopía clásica que explora temas de vigilancia y control gubernamental.",
+        "price": 9.99,
+        "thumbnail": "url_libro_2",
+        "code": "NNT1984",
+        "stock": 30
+    },
+    {
+        "title": "Pride and Prejudice",
+        "description": "Una historia de amor y prejuicio en la sociedad inglesa del siglo XIX.",
+        "price": 12.99,
+        "thumbnail": "url_libro_3",
+        "code": "PP1813",
+        "stock": 20
+    },
+    {
+        "title": "The Great Gatsby",
+        "description": "Una obra maestra de la literatura estadounidense que explora la decadencia y la ambición en los años 20.",
+        "price": 11.49,
+        "thumbnail": "url_libro_4",
+        "code": "TGG1925",
+        "stock": 15
+    },
+    {
+        "title": "Moby-Dick",
+        "description": "La épica historia de un capitán obsesionado por cazar a una ballena blanca.",
+        "price": 14.99,
+        "thumbnail": "url_libro_5",
+        "code": "MD1851",
+        "stock": 18
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "description": "La narración en primera persona de un adolescente en Nueva York.",
+        "price": 10.99,
+        "thumbnail": "url_libro_6",
+        "code": "CITR1951",
+        "stock": 22
+    },
+    {
+        "title": "Lord of the Flies",
+        "description": "Un grupo de niños varados en una isla luchan por la supervivencia y la civilización.",
+        "price": 9.99,
+        "thumbnail": "url_libro_7",
+        "code": "LOTF1954",
+        "stock": 14
+    },
+    {
+        "title": "Brave New World",
+        "description": "Una visión futurista de una sociedad controlada por la tecnología y la conformidad.",
+        "price": 12.99,
+        "thumbnail": "url_libro_8",
+        "code": "BNW1932",
+        "stock": 19
+    },
+    {
+        "title": "The Hobbit",
+        "description": "Una aventura épica en un mundo de fantasía habitado por hobbits y dragones.",
+        "price": 11.99,
+        "thumbnail": "url_libro_9",
+        "code": "TH1937",
+        "stock": 17
+    },
+    {
+        "title": "The Lord of the Rings",
+        "description": "Una trilogía épica que sigue la lucha por un poderoso anillo.",
+        "price": 18.99,
+        "thumbnail": "url_libro_10",
+        "code": "LOTR1954",
+        "stock": 12
+    },
+    {
+        "title": "Frankenstein",
+        "description": "La historia del científico que crea un ser monstruoso.",
+        "price": 10.99,
+        "thumbnail": "url_libro_11",
+        "code": "FR1818",
+        "stock": 21
+    },
+    {
+        "title": "The Odyssey",
+        "description": "La epopeya griega de Odiseo en su viaje de regreso a casa.",
+        "price": 13.49,
+        "thumbnail": "url_libro_12",
+        "code": "TO800BC",
+        "stock": 16
+    },
+    {
+        "title": "Dracula",
+        "description": "El clásico cuento de vampiros y el conde Drácula.",
+        "price": 9.99,
+        "thumbnail": "url_libro_13",
+        "code": "DRA1897",
+        "stock": 23
+    },
+    {
+        "title": "The War of the Worlds",
+        "description": "La invasión alienígena de la Tierra.",
+        "price": 10.99,
+        "thumbnail": "url_libro_14",
+        "code": "WOTW1898",
+        "stock": 11
+    },
+    {
+        "title": "The Shining",
+        "description": "El aterrador relato de un hotel embrujado.",
+        "price": 11.99,
+        "thumbnail": "url_libro_15",
+        "code": "TS1977",
+        "stock": 24
+    },
+    {
+        "title": "The Hunger Games",
+        "description": "Una lucha a muerte en un mundo distópico.",
+        "price": 10.99,
+        "thumbnail": "url_libro_16",
+        "code": "THG2008",
+        "stock": 10
+    },
+    {
+        "title": "The Da Vinci Code",
+        "description": "Una búsqueda de tesoros y secretos históricos.",
+        "price": 12.99,
+        "thumbnail": "url_libro_17",
+        "code": "DVC2003",
+        "stock": 28
+    },
+    {
+        "title": "The Alchemist",
+        "description": "La historia de un pastor que sigue sus sueños.",
+        "price": 9.99,
+        "thumbnail": "url_libro_18",
+        "code": "ALC1988",
+        "stock": 13
+    },
+    {
+        "title": "A Tale of Two Cities",
+        "description": "La novela clásica de Charles Dickens sobre la Revolución Francesa.",
+        "price": 11.49,
+        "thumbnail": "url_libro_19",
+        "code": "TTDC1859",
+        "stock": 27
+    },
+    {
+        "title": "The Road",
+        "description": "Un viaje postapocalíptico de supervivencia.",
+        "price": 10.99,
+        "thumbnail": "url_libro_20",
+        "code": "TR2006",
+        "stock": 9
+    },
+    {
+        "title": "Cien años de soledad",
+        "description": "La famosa novela de Gabriel García Márquez que narra la historia de la familia Buendía en Macondo.",
+        "price": 12.99,
+        "thumbnail": "url_libro_es_1",
+        "code": "CAS1967",
+        "stock": 25
+    },
+    {
+        "title": "El amor en los tiempos del cólera",
+        "description": "Otra obra maestra de Gabriel García Márquez sobre el amor y la perseverancia.",
+        "price": 11.99,
+        "thumbnail": "url_libro_es_2",
+        "code": "ALC1985",
+        "stock": 30
+    },
+    {
+        "title": "Don Quijote de la Mancha",
+        "description": "La obra cumbre de la literatura española escrita por Miguel de Cervantes.",
+        "price": 14.99,
+        "thumbnail": "url_libro_es_3",
+        "code": "DQ1605",
+        "stock": 20
+    },
+    {
+        "title": "Crimen y castigo",
+        "description": "La novela de Fyodor Dostoevsky que explora la moralidad y el castigo.",
+        "price": 10.99,
+        "thumbnail": "url_libro_es_4",
+        "code": "CYC1866",
+        "stock": 15
+    },
+    {
+        "title": "La sombra del viento",
+        "description": "Una historia misteriosa ambientada en la posguerra en Barcelona.",
+        "price": 11.49,
+        "thumbnail": "url_libro_es_5",
+        "code": "LSDV2001",
+        "stock": 18
+    },
+    {
+        "title": "Rayuela",
+        "description": "La innovadora novela de Julio Cortázar que desafía las convenciones literarias.",
+        "price": 9.99,
+        "thumbnail": "url_libro_es_6",
+        "code": "RAY1963",
+        "stock": 22
+    },
+    {
+        "title": "Los detectives salvajes",
+        "description": "Una obra de Roberto Bolaño que sigue a un grupo de jóvenes poetas y sus aventuras.",
+        "price": 10.99,
+        "thumbnail": "url_libro_es_7",
+        "code": "LDS1998",
+        "stock": 14
+    },
+    {
+        "title": "La casa de los espíritus",
+        "description": "La novela de Isabel Allende que mezcla realismo mágico con drama familiar.",
+        "price": 12.99,
+        "thumbnail": "url_libro_es_8",
+        "code": "LCDE1982",
+        "stock": 19
+    },
+    {
+        "title": "Ficciones",
+        "description": "Cuentos y relatos de Jorge Luis Borges que desafían la realidad y la ficción.",
+        "price": 10.99,
+        "thumbnail": "url_libro_es_9",
+        "code": "FIC1944",
+        "stock": 17
+    },
+    {
+        "title": "Pedro Páramo",
+        "description": "La novela de Juan Rulfo que explora el misticismo y el pasado de Comala.",
+        "price": 11.99,
+        "thumbnail": "url_libro_es_10",
+        "code": "PP1955",
+        "stock": 12
+    },
+    {
+        "title": "La casa de papel",
+        "description": "Una emocionante historia de un atraco en la Real Casa de la Moneda de España.",
+        "price": 10.99,
+        "thumbnail": "url_libro_es_11",
+        "code": "LCDP2017",
+        "stock": 21
+    },
+    {
+        "title": "Ficciones",
+        "description": "Cuentos y relatos de Jorge Luis Borges que desafían la realidad y la ficción.",
+        "price": 10.99,
+        "thumbnail": "url_libro_es_12",
+        "code": "FIC1944",
+        "stock": 16
+    },
+    {
+        "title": "Pedro Páramo",
+        "description": "La novela de Juan Rulfo que explora el misticismo y el pasado de Comala.",
+        "price": 11.99,
+        "thumbnail": "url_libro_es_13",
+        "code": "PP1955",
+        "stock": 23
+    },
+    {
+        "title": "La casa de papel",
+        "description": "Una emocionante historia de un atraco en la Real Casa de la Moneda de España.",
+        "price": 10.99,
+        "thumbnail": "url_libro_es_14",
+        "code": "LCDP2017",
+        "stock": 11
+    },
+    {
+        "title": "Cien años de soledad",
+        "description": "La famosa novela de Gabriel García Márquez que narra la historia de la familia Buendía en Macondo.",
+        "price": 12.99,
+        "thumbnail": "url_libro_es_15",
+        "code": "CAS1967",
+        "stock": 24
+    },
+    {
+        "title": "El amor en los tiempos del cólera",
+        "description": "Otra obra maestra de Gabriel García Márquez sobre el amor y la perseverancia.",
+        "price": 11.99,
+        "thumbnail": "url_libro_es_16",
+        "code": "ALC1985",
+        "stock": 10
+    },
+    {
+        "title": "Don Quijote de la Mancha",
+        "description": "La obra cumbre de la literatura española escrita por Miguel de Cervantes.",
+        "price": 14.99,
+        "thumbnail": "url_libro_es_17",
+        "code": "DQ1605",
+        "stock": 28
+    },
+    {
+        "title": "Crimen y castigo",
+        "description": "La novela de Fyodor Dostoevsky que explora la moralidad y el castigo.",
+        "price": 10.99,
+        "thumbnail": "url_libro_es_18",
+        "code": "CYC1866",
+        "stock": 13
+    }
+]
