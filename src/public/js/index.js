@@ -23,12 +23,6 @@ prodsForm.onsubmit = (e) => {
     };
     
     socketClient.emit("addProd", obj); 
-   /* title.value = '';
-    description.value = '';
-    code.value = '';
-    thumbnail.value = '';
-    price.value = '';
-    stock.value = '';*/
     console.log('Form data to be emitted:', obj);
 };
 

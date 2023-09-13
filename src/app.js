@@ -8,6 +8,7 @@ import productsRouter from './routes/products.router.js';
 import cartsRouter from './routes/carts.router.js';
 import { Server } from 'socket.io'; 
 import './db/dbConfig.js';
+import cookieParser from 'cookie-parser';
 
 const app = express();
 
@@ -26,19 +27,41 @@ app.use ('/api/views',viewsRouter);
 app.use ('/api/products', productsRouter);
 app.use ('/api/carts', cartsRouter);
 
+//Cookies
+app.use (cookieParser('secretKeyCookies'));
+
+app.get ('/saveCookie',(req, res) => {
+    res.cookie ('cookie1','First cookie',{maxAge:60000}).send()
+});
+
+app.get ('/readCookie', (req,res) => {
+    console.log(req.cookies);
+    const {cookie1} = req.cookies
+    res.json ({message: 'Reading cookie', ...req.cookies, ...req.signedCookies})
+});
+
+app.get ('/deleteCookie', (req,res) => {
+    res.clearCookie('cookie2').send ('Deleting cookie')
+});
+
+app.get ('/saveSignedCookie',(req, res) => {
+    res.cookie ('cookie2','Second cookie',{signed:true}).send()
+});
+
+
 const PORT = 8080
 
 const httpServer = app.listen(PORT,()=>{
-    console.log(`Escuchando al puerto ${PORT}`);
+    console.log(`Listening to port ${PORT}`);
 });
 
 const socketServer = new Server (httpServer);
 
 socketServer.on ('connection', socket =>{
-    console.log("Nuevo cliente conectado:", socket.id);
+    console.log("New client connected:", socket.id);
 
     socketServer.on('disconnect', () => {
-        console.log('Cliente', socket.id, 'desconectado');
+        console.log('Client', socket.id, 'disconneted');
     });
 
     socketServer.emit('bienvenida',`Bienvenido a My E-book Store usuario ${socket.id}`);
