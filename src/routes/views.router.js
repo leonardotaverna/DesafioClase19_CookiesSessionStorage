@@ -26,4 +26,8 @@ router.get('/realtimeproducts', async (req, res) => {
 
 });
 
+router.get('/login', (req,res)=>{
+    res.render('login');
+});
+
 export default router;

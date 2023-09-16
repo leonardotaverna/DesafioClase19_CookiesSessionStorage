@@ -9,6 +9,9 @@ import cartsRouter from './routes/carts.router.js';
 import { Server } from 'socket.io'; 
 import './db/dbConfig.js';
 import cookieParser from 'cookie-parser';
+import loginRouter from './routes/login.router.js'
+import session from 'express-session';
+
 
 const app = express();
 
@@ -26,9 +29,17 @@ app.set('view engine', 'handlebars');
 app.use ('/api/views',viewsRouter);
 app.use ('/api/products', productsRouter);
 app.use ('/api/carts', cartsRouter);
+app.use ('/api/login',loginRouter);
 
 //Cookies
 app.use (cookieParser('secretKeyCookies'));
+
+
+//Sessions
+app.use (session({
+    secret: 'secretSession',
+    cookie: {maxAge:180000}
+}))
 
 app.get ('/saveCookie',(req, res) => {
     res.cookie ('cookie1','First cookie',{maxAge:60000}).send()
@@ -47,6 +58,7 @@ app.get ('/deleteCookie', (req,res) => {
 app.get ('/saveSignedCookie',(req, res) => {
     res.cookie ('cookie2','Second cookie',{signed:true}).send()
 });
+
 
 
 const PORT = 8080
